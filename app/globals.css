@@ -1,12 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-/*@import "tailwindcss";*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@theme {
-  --font-work-sans: var(--font-work-sans);
-}
 
 @layer base {
   :root {
@@ -47,14 +43,12 @@
     @apply font-medium text-[16px] text-black;
   }
 
-  /* TODO: TEXT-WHITE CHANGED OVER HERE*/
   .text-14-normal {
-    @apply font-normal text-sm text-white/80;
+    @apply font-normal text-sm text-white-100/80;
   }
 
-  /* TODO: PATTERN CHANGED*/
   .pink_container {
-    @apply w-full bg-primary min-h-[530px] bg-custom-pattern flex justify-center items-center flex-col py-10 px-6;
+    @apply w-full bg-primary min-h-[530px] pattern flex justify-center items-center flex-col py-10 px-6;
   }
 
   .tag {
@@ -139,7 +133,7 @@
 
   /* startupcard */
   .startup-card {
-    @apply bg-white border-[5px] border-black py-6 px-5 rounded-[22px] shadow-200 hover:border-primary transition-all duration-500 hover:shadow-300 hover:bg-primary-100;
+    @apply bg-white border-[5px] border-black py-6 px-5 rounded-[22px] shadow-200 hover:border-primary transition-all duration-300 hover:shadow-300 hover:bg-primary-100;
   }
 
   .startup-card_date {

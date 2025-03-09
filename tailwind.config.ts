@@ -33,12 +33,6 @@ const config: Config = {
             fontFamily: {
                 "work-sans": ["var(--font-work-sans)"],
             },
-            backgroundImage: {
-                "custom-pattern": "linear-gradient(to right, transparent 49.5%, rgba(251, 232, 67, 0.2) 49.5%, rgba(251, 232, 67, 0.6) 50.5%, transparent 50.5%)",
-            },
-            backgroundSize: {
-                "5-100": "5% 100%",
-            },
             borderRadius: {
                 lg: "var(--radius)",
                 md: "calc(var(--radius) - 2px)",
